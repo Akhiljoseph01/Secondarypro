@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import ProductsPage from './pages/ProductsPage';
-import ProductDetailPage from './pages/ProductDetailPage';
-import AdminPage from './pages/AdminPage';
-import AdminLogin from './pages/AdminLogin';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+import HomePage from './pages/HomePage.jsx';
+import ProductsPage from './pages/ProductsPage.jsx';
+import ProductDetailPage from './pages/ProductDetailPage.jsx';
+import AdminPage from './pages/AdminPage.jsx';
+import AdminLogin from './pages/AdminLogin.jsx';
 
 function App() {
   return (

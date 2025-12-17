@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { adminAPI } from '../services/api';
-import LoadingSpinner from '../components/LoadingSpinner';
-import ProductManager from '../components/admin/ProductManager';
-import OrderManager from '../components/admin/OrderManager';
-import Dashboard from '../components/admin/Dashboard';
+import LoadingSpinner from '../components/LoadingSpinner.jsx';
+import ProductManager from '../components/admin/ProductManager.jsx';
+import OrderManager from '../components/admin/OrderManager.jsx';
+import Dashboard from '../components/admin/Dashboard.jsx';
 
 const AdminPage = () => {
   const [activeTab, setActiveTab] = useState('dashboard');

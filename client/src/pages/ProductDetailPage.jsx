@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { productsAPI, ordersAPI } from '../services/api';
-import LoadingSpinner from '../components/LoadingSpinner';
-import PreorderForm from '../components/PreorderForm';
+import LoadingSpinner from '../components/LoadingSpinner.jsx';
+import PreorderForm from '../components/PreorderForm.jsx';
 
 const ProductDetailPage = () => {
   const { id } = useParams();
