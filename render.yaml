@@ -1,0 +1,45 @@
+services:
+  # Backend API Service
+  - type: web
+    name: secondarypro-api
+    env: node
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        fromDatabase:
+          name: secondarypro-db
+          property: connectionString
+      - key: EMAIL_HOST
+        value: smtp.gmail.com
+      - key: EMAIL_PORT
+        value: 587
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: CLIENT_URL
+        value: https://secondarypro.onrender.com
+
+  # Frontend Static Site
+  - type: web
+    name: secondarypro-frontend
+    env: static
+    plan: free
+    buildCommand: cd client && npm install && npm run build
+    staticPublishPath: ./client/build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://secondarypro-api.onrender.com/api
+
+databases:
+  - name: secondarypro-db
+    databaseName: secondarypro
+    user: secondarypro

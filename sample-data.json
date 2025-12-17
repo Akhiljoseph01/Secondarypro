@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "name": "Nike Air Jordan 1 Retro High",
+      "description": "The iconic Air Jordan 1 Retro High brings back the classic design that started it all. Premium leather upper with the signature Wings logo and Air-Sole unit for comfort.",
+      "price": 170,
+      "imageUrl": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-47",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Adidas Ultraboost 22",
+      "description": "Experience incredible energy return with every step. The Ultraboost 22 features responsive BOOST midsole and Primeknit upper for ultimate comfort.",
+      "price": 190,
+      "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-46",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Converse Chuck Taylor All Star",
+      "description": "The timeless classic that never goes out of style. Canvas upper with rubber toe cap and signature All Star patch.",
+      "price": 65,
+      "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&h=500&fit=crop",
+      "category": "casual",
+      "sizeRange": "35-45",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Vans Old Skool",
+      "description": "The classic skate shoe with the iconic side stripe. Durable canvas and suede upper with signature waffle outsole.",
+      "price": 75,
+      "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&h=500&fit=crop",
+      "category": "casual",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Dr. Martens 1460 Boots",
+      "description": "The original Dr. Martens boot. Built to last with smooth leather upper and the famous air-cushioned sole.",
+      "price": 150,
+      "imageUrl": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=500&h=500&fit=crop",
+      "category": "boots",
+      "sizeRange": "36-47",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "New Balance 990v5",
+      "description": "Made in USA premium running shoe with ENCAP midsole technology and pigskin/mesh upper for superior comfort.",
+      "price": 185,
+      "imageUrl": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-47",
+      "featured": false,
+      "inStock": true
+    }
+  ],
+  "adminCredentials": {
+    "password": "admin123",
+    "note": "Change this password in production!"
+  },
+  "setup_instructions": [
+    "1. Start MongoDB (local or Atlas)",
+    "2. Update server/.env with your database URI",
+    "3. Run 'npm run install-all' to install dependencies",
+    "4. Run 'npm run dev' to start development servers",
+    "5. Visit http://localhost:3000 for the website",
+    "6. Visit http://localhost:3000/admin for admin panel"
+  ]
+}
