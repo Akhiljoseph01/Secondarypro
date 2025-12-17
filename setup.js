@@ -43,7 +43,8 @@ CLIENT_URL=http://localhost:3000
 
 if (!fs.existsSync(clientEnvPath)) {
   console.log('📝 Creating client .env file...');
-  const clientEnvContent = `REACT_APP_API_URL=http://localhost:5000/api
+  const clientEnvContent = `VITE_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:5000/api
 `;
   fs.writeFileSync(clientEnvPath, clientEnvContent);
   console.log('✅ Client .env file created');
