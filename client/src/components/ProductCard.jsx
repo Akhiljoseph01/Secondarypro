@@ -11,9 +11,9 @@ const ProductCard = ({ product }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
       <Link to={`/product/${product._id}`}>
-        <div className="aspect-w-1 aspect-h-1">
+        <div className="aspect-square">
           {imageError ? (
-            <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
+            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
               <div className="text-center">
                 <div className="text-gray-400 text-4xl mb-2">📷</div>
                 <p className="text-gray-500 text-sm">Image not available</p>
@@ -23,7 +23,7 @@ const ProductCard = ({ product }) => {
             <img
               src={product.imageUrl}
               alt={product.name}
-              className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               onError={handleImageError}
             />
           )}

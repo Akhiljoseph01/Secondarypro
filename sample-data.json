@@ -59,6 +59,136 @@
       "sizeRange": "36-47",
       "featured": false,
       "inStock": true
+    },
+    {
+      "name": "Nike Dunk Low Retro",
+      "description": "Low-cut, everyday classic with durable overlays and a padded collar for comfort. Clean color-blocking inspired by the original releases.",
+      "price": 115,
+      "imageUrl": "https://images.unsplash.com/photo-1528701800489-20be9c8f6f2a?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-46",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Nike Air Force 1 '07",
+      "description": "The legend lives on with classic AF1 style: crisp leather, bold details, and a comfortable Air-Sole unit built for all-day wear.",
+      "price": 125,
+      "imageUrl": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-47",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Adidas Samba OG",
+      "description": "An iconic terrace classic with a premium leather upper, suede toe, and signature gum outsole. Built for style, loved for comfort.",
+      "price": 100,
+      "imageUrl": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500&h=500&fit=crop",
+      "category": "casual",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Adidas Gazelle",
+      "description": "A timeless suede icon with a low-profile silhouette and a comfortable rubber outsole. Easy to style, built to last.",
+      "price": 110,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+      "category": "casual",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Puma Suede Classic",
+      "description": "Legendary Puma Suede styling with a soft suede upper and a grippy rubber outsole. A streetwear staple for decades.",
+      "price": 80,
+      "imageUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=500&fit=crop",
+      "category": "casual",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Reebok Club C 85",
+      "description": "Minimal, clean, and classic. Soft leather upper with a cushioned midsole for a comfortable, everyday fit.",
+      "price": 90,
+      "imageUrl": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "ASICS GEL-Kayano 30",
+      "description": "Stability-focused running shoe with premium cushioning and a supportive fit. Smooth transitions and comfort for long runs.",
+      "price": 200,
+      "imageUrl": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-46",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Nike Air Max 90",
+      "description": "A true icon featuring the signature Waffle outsole, stitched overlays, and Max Air cushioning for a smooth, statement-making ride.",
+      "price": 140,
+      "imageUrl": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-47",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "New Balance 530",
+      "description": "Retro runner vibes with modern comfort. Breathable mesh upper and responsive cushioning for easy everyday wear.",
+      "price": 105,
+      "imageUrl": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-47",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Timberland 6-Inch Premium Boot",
+      "description": "Water-resistant leather, durable build, and iconic styling. A cold-weather essential with rugged traction.",
+      "price": 198,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+      "category": "boots",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Clarks Desert Boot",
+      "description": "Classic suede chukka boot with a crepe sole. Clean lines, comfort-first construction, and versatile styling.",
+      "price": 160,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+      "category": "boots",
+      "sizeRange": "39-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Cole Haan GrandPr\u00f8s Oxford",
+      "description": "A lightweight formal-casual hybrid with a sleek profile and cushioned sole. Designed for all-day office-to-evening comfort.",
+      "price": 170,
+      "imageUrl": "https://images.unsplash.com/photo-1528701800489-20be9c8f6f2a?w=500&h=500&fit=crop",
+      "category": "formal",
+      "sizeRange": "39-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Birkenstock Arizona Essentials",
+      "description": "Two-strap comfort sandal with a contoured footbed feel and lightweight build. Easy everyday wear with a clean look.",
+      "price": 55,
+      "imageUrl": "https://images.unsplash.com/photo-1603808033192-082d6919d3b1?w=500&h=500&fit=crop",
+      "category": "sandals",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
     }
   ],
   "adminCredentials": {
