@@ -12,7 +12,16 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
+  origin: (origin, callback) => {
+    const allowList = [process.env.CLIENT_URL, 'http://localhost:3000'].filter(Boolean);
+
+    if (!origin) return callback(null, true);
+    if (allowList.includes(origin)) return callback(null, true);
+    if (origin.startsWith('http://localhost:')) return callback(null, true);
+    if (origin.startsWith('http://127.0.0.1:')) return callback(null, true);
+
+    return callback(new Error(`Not allowed by CORS: ${origin}`));
+  },
   credentials: true
 }));
 app.use(express.json());

@@ -189,6 +189,76 @@
       "sizeRange": "36-46",
       "featured": false,
       "inStock": true
+    },
+    {
+      "name": "Nike Air Jordan 4 Retro",
+      "description": "A legendary silhouette with bold design lines, supportive fit, and premium materials. Built for collectors and everyday styling.",
+      "price": 215,
+      "imageUrl": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-47",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Adidas Yeezy Boost 350 V2",
+      "description": "Sock-like Primeknit upper and responsive cushioning for a modern streetwear look. Lightweight and comfortable for daily wear.",
+      "price": 230,
+      "imageUrl": "https://images.unsplash.com/photo-1584735174965-48c2f1d7bd2a?w=500&h=500&fit=crop",
+      "category": "sneakers",
+      "sizeRange": "36-46",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "On Cloud 5",
+      "description": "Ultra-light running shoe with CloudTec cushioning and a speed-lacing system. Great for walking, travel, and everyday movement.",
+      "price": 150,
+      "imageUrl": "https://images.unsplash.com/photo-1606890658317-7d14490b76fd?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "HOKA Clifton 9",
+      "description": "Plush cushioning with a smooth ride and a lightweight feel. A go-to daily trainer for comfort-focused runners.",
+      "price": 145,
+      "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-47",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Salomon XT-6",
+      "description": "Technical trail runner with aggressive grip and a rugged build. Popular for both performance and street styling.",
+      "price": 200,
+      "imageUrl": "https://images.unsplash.com/photo-1528701800489-20be9c8f6f2a?w=500&h=500&fit=crop",
+      "category": "sports",
+      "sizeRange": "36-46",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "name": "Crocs Classic Clog",
+      "description": "Iconic lightweight comfort with ventilation ports and easy slip-on style. Perfect for casual wear and travel.",
+      "price": 50,
+      "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&h=500&fit=crop",
+      "category": "sandals",
+      "sizeRange": "36-46",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "name": "Allen Edmonds Park Avenue Oxford",
+      "description": "Classic cap-toe formal oxford with premium leather and a timeless silhouette. Designed for sharp, polished looks.",
+      "price": 395,
+      "imageUrl": "https://images.unsplash.com/photo-1528701800489-20be9c8f6f2a?w=500&h=500&fit=crop",
+      "category": "formal",
+      "sizeRange": "39-46",
+      "featured": false,
+      "inStock": true
     }
   ],
   "adminCredentials": {
